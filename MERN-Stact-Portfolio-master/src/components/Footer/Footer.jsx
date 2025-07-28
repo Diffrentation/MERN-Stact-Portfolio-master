@@ -21,7 +21,7 @@ const Footer = () => {
           <div className="grid grid-flow-col gap-4 text-2xl text-primary">
             
           <Link
-            to={"www.linkedin.com/in/bhupender-singh-899704276"}
+            to={"https://www.linkedin.com/in/bhupender-singh-899704276"}
             target="_blank"
           >
             <FiLinkedin className="transition duration-200 ease-in-out hover:scale-125 cursor-pointer" />
