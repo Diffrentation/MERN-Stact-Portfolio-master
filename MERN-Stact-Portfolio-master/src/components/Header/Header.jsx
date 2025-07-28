@@ -670,7 +670,7 @@ const Header = () => {
             style={{ backgroundColor: "#16423C" }}
           />
           <Link
-            to={"www.linkedin.com/in/bhupender-singh-899704276/"}
+            to={"https://www.linkedin.com/in/bhupender-singh-899704276/"}
             target="_blank"
           >
             <FiLinkedin
