@@ -11,21 +11,21 @@ const ProjectCard = () => {
       <div className="grid grid-cols-1 md:grid-cols-1 gap-6 text-center justify-center shadow-md p-6 rounded-xl  transition duration-150 bg-cyan-50 items-center border" data-aos="fade-right" data-aos-duration="800">
         <div className="content">
           <h2 className="text-xl font-bold gap-4 items-center text-center">
-            FARM DAIRY WEBSITE PROJECT{" "}
+            ShortLink: URL Shortner{" "}
           </h2>
           <div className="screen">
-            <img src={FarmProject} className="cursor-pointer" />
+            <img src="../../../public/assets/images/Lms1.png" className="cursor-pointer" />
           </div>
           <div className="font-semibold my-8 space-x-6 ">
             <Link
-              to="mailto:mahnoorkhan1034@gmail.com"
+              to="mailto:bbhupender100@gmail.com"
               target="_blank"
               className="transiton duration-150 hover:text-primary"
             >
               Request for code <FaGithub className="inline ml-4" />
             </Link>
             <Link
-              to={"https://mahnoor-jawaid-khan.github.io/dairypress/"}
+              to={"https://learnsphere-1-zs8q.onrender.com/"}
               target="_blank"
               className="transiton duration-150 hover:text-primary"
             >
@@ -83,21 +83,21 @@ const ProjectCard = () => {
       <div className="grid grid-cols-1 md:grid-cols-1 gap-6 text-center justify-center shadow-md p-6 rounded-xl  transition duration-150 bg-cyan-50 items-center border" data-aos="fade-right" data-aos-duration="800">
         <div className="content">
           <h2 className="text-xl font-bold gap-4 items-center text-center">
-            NOOM PORTFOLIO WEBSITE{" "}
+           Learning Management System{" "}
           </h2>
           <div className="screen">
-            <img src={NoomProject} className="cursor-pointer" />
+            <img src="../../../public/assets/images/Lms2.png" className="cursor-pointer" />
           </div>
           <div className="font-semibold my-8 space-x-6 ">
             <Link
-              to="mailto:mahnoorkhan1034@gmail.com"
+              to="mailto:bbhupender100@gmail.com"
               target="_blank"
               className="transiton duration-150 hover:text-primary"
             >
               Request for code <FaGithub className="inline ml-4" />
             </Link>
             <Link
-              to={"https://mahnoor-jawaid-khan.github.io/dairypress/"}
+              to={"https://learnsphere-1-zs8q.onrender.com/"}
               target="_blank"
               className="transiton duration-150 hover:text-primary"
             >
