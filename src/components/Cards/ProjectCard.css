@@ -1,0 +1,30 @@
+.content {
+    position: relative;
+  }
+.screen {
+	width: 100%;
+    height: 300px;
+    overflow: hidden;
+    margin: 50px auto;
+}
+.screen img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    object-position: top center;
+    transition: all 1s ease-in-out;
+	-webkit-transition: top 11s;
+	-moz-transition: top 11s;
+	-ms-transition: top 11s;
+	-o-transition: top 11s;
+	transition: bottom 11s;
+}
+.screen:hover img {
+    object-position: bottom center;
+  -webkit-transition: all 11s;
+  -moz-transition: all 11s;
+  -ms-transition: all 11s;
+  -o-transition: all 11s;
+  transition: all 6s;
+}
