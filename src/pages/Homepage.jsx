@@ -15,9 +15,9 @@ const Homepage = () => {
     <>
      <Helmet>
         <title>Bhupendra Singh - Full Stack Developer</title>
-        <meta name="description" content="Mahnoor Khan - Front-end Web Developer | MERN Stack Developer | Software Engineeering Graduate | Portfolio | Reactjs Developer" />
+        <meta name="description" content="Bhupendra Singh - Front-end Web Developer | MERN Stack Developer | Software Engineeering Graduate | Portfolio | Reactjs Developer" />
         <meta name="keywords" content="front-end, web developer, MERN stack, computer science, JavaScript, React,ReactJS, MongoDB, Node.js, HTML, CSS" />
-        <meta name="author" content="Mahnoor Khan" />
+        <meta name="author" content="Bhupendra Singh" />
         <meta name="robots" content="index, follow" />
         {/* Open Graph meta tags */}
         <meta property="og:type" content="website" />
