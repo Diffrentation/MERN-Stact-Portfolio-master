@@ -2,8 +2,6 @@ import { BsCarFront, BsFillBuildingsFill } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
 import { MdWeb } from "react-icons/md";
 import { Link } from "react-router-dom";
-import FarmProject from '../../../public/assets/images/farm project ss.png'
-import NoomProject from '../../../public/assets/images/Noom project.png'
 import "./ProjectCard.css";
 const ProjectCard = () => {
   return (
@@ -14,7 +12,7 @@ const ProjectCard = () => {
             ShortLink: URL Shortner{" "}
           </h2>
           <div className="screen">
-            <img src="../../../public/assets/images/Lms1.png" className="cursor-pointer" />
+            <img src="src\components\Cards\ProjectImg\Lms1.png" className="cursor-pointer" />
           </div>
           <div className="font-semibold my-8 space-x-6 ">
             <Link
@@ -86,7 +84,7 @@ const ProjectCard = () => {
            Learning Management System{" "}
           </h2>
           <div className="screen">
-            <img src="../../../public/assets/images/Lms2.png" className="cursor-pointer" />
+            <img src="src\components\Cards\ProjectImg\Lms2.png" className="cursor-pointer" />
           </div>
           <div className="font-semibold my-8 space-x-6 ">
             <Link
