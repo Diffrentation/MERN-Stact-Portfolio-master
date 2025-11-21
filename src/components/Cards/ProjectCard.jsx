@@ -3,8 +3,8 @@ import { MdWeb } from "react-icons/md";
 import { Link } from "react-router-dom";
 
 import ShortLink from "./ProjectImg/ShortLink.png";
-import NewLms from "./ProjectImg/NewLms.png";
-import OldLms from "./ProjectImg/OldLms.png";
+import NewLms from "./ProjectImg/crystal.png";
+import OldLms from "./ProjectImg/RealState.png";
 import PasswordGenerator from "./ProjectImg/passwordGenerator.png";
 
 import "./ProjectCard.css";
@@ -14,17 +14,17 @@ const ProjectCard = () => {
     {
       title: "ShortLink: URL Shortener",
       img: ShortLink,
-      live: "https://learnsphere-1-zs8q.onrender.com/",
+      live: "#",
     },
     {
       title: "Learning Management System",
       img: NewLms,
-      live: "https://learnsphere-1-zs8q.onrender.com/",
+      live: "https://crystal-vision-academy-0udv.onrender.com/",
     },
     {
-      title: "Learning Management System 2",
+      title: "Real State Platform",
       img: OldLms,
-      live: "https://learnsphere-1-zs8q.onrender.com/",
+      live: "https://real-state-one-liart.vercel.app/",
     },
     {
       title: "Password Generator",

@@ -23,7 +23,7 @@ const Contact = () => {
               bbhupender100@gmail.com
             </h5>
             <a
-              href="mailto:mahnoorkhan1034@gmail.com"
+              href="mailto:bbhupender100@gmail.com"
               className="transition duration-150 text-base font-bold hover:scale-130 btn btn-ghost btn-sm hover:bg-transparent"
               style={{ color: '#16423C' }} >
               Click here to Send a mail

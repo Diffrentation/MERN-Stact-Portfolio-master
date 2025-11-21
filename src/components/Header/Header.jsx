@@ -641,8 +641,8 @@ const Header = () => {
             Highly motivated and detail-oriented MERN stack developer with a
             strong passion for building scalable, efficient, and user-friendly
             web applications. Proficient in modern technologies and frameworks
-            including MongoDB, Express.js, React, Node.js, along with tools like
-            Redux, Axios, and Mongoose. I am committed to delivering clean,
+            including Next.js, MongoDB, Express.js, React, Node.js, along with tools like
+            Redux, Axios, git, github and Mongoose. I am committed to delivering clean,
             maintainable, and high-performance code while constantly seeking
             opportunities to learn and grow. Explore my portfolio to see how I
             can bring your ideas to life with robust full-stack solutions!
