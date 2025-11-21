@@ -1,19 +1,31 @@
-import React, { useRef } from "react";
-import emailjs from "emailjs-com";
+import { useRef, useState } from "react";
+import emailjs from "@emailjs/browser";
 
 const ContactForm = () => {
   const formRef = useRef();
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const serviceId = import.meta.env.VITE_EMAILJS_SERVICE_ID;
+  const templateId = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
+  const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
 
   const sendEmail = (e) => {
     e.preventDefault();
 
+    if (!serviceId || !templateId || !publicKey) {
+      console.error("EmailJS environment variables are missing.");
+      alert("Email service is not configured. Please try again later.");
+      return;
+    }
+
+    if (!formRef.current) {
+      console.error("Contact form reference is not available.");
+      return;
+    }
+
+    setIsSubmitting(true);
+
     emailjs
-      .sendForm(
-        import.meta.env.VITE_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
-        formRef.current,
-        import.meta.env.VITE_EMAILJS_PUBLIC_KEY
-      )
+      .sendForm(serviceId, templateId, formRef.current, publicKey)
       .then(
         () => {
           alert("Message sent successfully!");
@@ -23,7 +35,10 @@ const ContactForm = () => {
           alert("Failed to send message.");
           console.error("EmailJS error:", error);
         }
-      );
+      )
+      .finally(() => {
+        setIsSubmitting(false);
+      });
   };
 
   return (
@@ -78,10 +93,11 @@ const ContactForm = () => {
       <div className="mt-4">
         <button
           type="submit"
-          className="inline-block w-full rounded-lg btn btn-primary px-5 py-3 font-medium text-white sm:w-auto"
+          className="inline-block w-full rounded-lg btn btn-primary px-5 py-3 font-medium text-white sm:w-auto disabled:opacity-50"
           style={{ backgroundColor: "#16423C" }}
+          disabled={isSubmitting}
         >
-          Send Mail
+          {isSubmitting ? "Sending..." : "Send Mail"}
         </button>
       </div>
     </form>
