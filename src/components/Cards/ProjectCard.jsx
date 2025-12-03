@@ -24,7 +24,7 @@ const ProjectCard = () => {
     {
       title: "Real State Platform",
       img: OldLms,
-      live: "https://real-state-one-liart.vercel.app/",
+      live: "https://real-state-nu-coral.vercel.app/",
     },
     {
       title: "Password Generator",
