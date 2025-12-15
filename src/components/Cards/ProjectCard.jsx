@@ -6,6 +6,7 @@ import ShortLink from "./ProjectImg/ShortLink.png";
 import NewLms from "./ProjectImg/crystal.png";
 import OldLms from "./ProjectImg/RealState.png";
 import PasswordGenerator from "./ProjectImg/passwordGenerator.png";
+import ToDoList from "./ProjectImg/ToDoList.png";
 
 import "./ProjectCard.css";
 
@@ -30,6 +31,11 @@ const ProjectCard = () => {
       title: "Password Generator",
       img: PasswordGenerator,
       live: "https://genpass100.netlify.app/",
+    },
+    {
+      title: "To-Do List Application",
+      img: ToDoList,
+      live: "https://todo-list-five-azure-84.vercel.app/",
     },
   ];
 
