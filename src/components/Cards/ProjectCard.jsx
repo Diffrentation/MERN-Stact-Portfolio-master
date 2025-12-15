@@ -6,7 +6,7 @@ import ShortLink from "./ProjectImg/ShortLink.png";
 import NewLms from "./ProjectImg/crystal.png";
 import OldLms from "./ProjectImg/RealState.png";
 import PasswordGenerator from "./ProjectImg/passwordGenerator.png";
-import ToDoList from "./ProjectImg/ToDoList.png";
+import ToDoList from "./ProjectImg/TodoList.png";
 
 import "./ProjectCard.css";
 
@@ -53,7 +53,11 @@ const ProjectCard = () => {
               {project.title}
             </h2>
             <div className="screen">
-              <img src={project.img} alt={project.title} className="cursor-pointer" />
+              <img
+                src={project.img}
+                alt={project.title}
+                className="cursor-pointer"
+              />
             </div>
             <div className="font-semibold my-8 space-x-6">
               <Link
