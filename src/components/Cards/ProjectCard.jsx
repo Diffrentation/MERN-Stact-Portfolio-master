@@ -7,25 +7,26 @@ import NewLms from "./ProjectImg/crystal.png";
 import OldLms from "./ProjectImg/RealState.png";
 import PasswordGenerator from "./ProjectImg/passwordGenerator.png";
 import ToDoList from "./ProjectImg/TodoList.png";
+import ECommerce from "./ProjectImg/E-commerce.png";
 
 import "./ProjectCard.css";
 
 const ProjectCard = () => {
   const projects = [
     {
-      title: "ShortLink: URL Shortener",
-      img: ShortLink,
-      live: "#",
-    },
-    {
-      title: "Learning Management System",
-      img: NewLms,
-      live: "https://crystal-vision-academy-0udv.onrender.com/",
+      title: "E-Commerce Platform",
+      img: ECommerce,
+      live: "https://fluxfit-five.vercel.app/",
     },
     {
       title: "Real State Platform",
       img: OldLms,
       live: "https://real-state-nu-coral.vercel.app/",
+    },
+    {
+      title: "Learning Management System",
+      img: NewLms,
+      live: "https://crystal-vision-academy-0udv.onrender.com/",
     },
     {
       title: "Password Generator",
@@ -36,6 +37,11 @@ const ProjectCard = () => {
       title: "To-Do List Application",
       img: ToDoList,
       live: "https://todo-list-five-azure-84.vercel.app/",
+    },
+    {
+      title: "ShortLink: URL Shortener",
+      img: ShortLink,
+      live: "#",
     },
   ];
 

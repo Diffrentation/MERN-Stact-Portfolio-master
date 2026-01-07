@@ -6,7 +6,6 @@ import { LuMouse } from "react-icons/lu";
 import { FaAngleDoubleDown } from "react-icons/fa";
 import { CiLocationOn } from "react-icons/ci";
 
-import Resume from "../../../public/assets/images/Mr.BhupendraSingh.pdf";
 import { Link } from "react-router-dom";
 import { scroller } from "react-scroll";
 import { Typewriter } from "react-simple-typewriter";
@@ -655,7 +654,7 @@ const Header = () => {
             Uttar Pradesh
           </p>
 
-          <a href={Resume} download data-aos="fade-up" data-aos-duration="1500">
+          <a href="/assets/images/Mr.BhupedraSingh.pdf" download data-aos="fade-up" data-aos-duration="1500">
             <button
               className="btn btn-primary text-white transition duration-300 ease-in-out hover:scale-105"
               style={{ backgroundColor: "#16423C", border: "0" }}
