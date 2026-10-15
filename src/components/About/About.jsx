@@ -49,18 +49,34 @@ const About = () => {
           data-aos="fade-up"
           data-aos-duration="1200"
         >
-          I’m currently gaining hands-on experience as a{" "}
+          I completed a six-month internship as a{" "}
           <span className="font-semibold" style={{ color: "#227B94" }}>
-            Frontend Developer Intern (MERN Stack) at 
+            Full Stack Developer Intern at 
           </span>{" "}
           <span className="font-semibold" style={{ color: "#001a33" }}>
             <a href="https://clinginfotech.com/">Cling Info Tech</a>
           </span>
-          . During my internship, I work on real-world projects, building dynamic web applications and contributing to both frontend and backend development. This experience is helping me strengthen my skills in{" "}
+          . During this internship, I built real-world web applications and contributed across both frontend and backend development, strengthening my skills in{" "}
           <span className="font-semibold" style={{ color: "#227B94" }}>
             React.js, Node.js, Express.js, MongoDB
           </span>{" "}
           and other modern web technologies.
+        </p>
+
+        <p
+          className="hover:scale-110 ease-in-out transition cursor-pointer rounded-lg hover:border p-4 text-lg md:text-xl"
+          data-aos="fade-up"
+          data-aos-duration="1200"
+        >
+          I also completed a six-month internship as a{" "}
+          <span className="font-semibold" style={{ color: "#227B94" }}>
+            Full Stack Developer
+          </span>{" "}
+          at{" "}
+          <span className="font-semibold" style={{ color: "#001a33" }}>
+            Ramyoz Solutions Private Limited
+          </span>
+          . There, I contributed to production-focused products, including automation, influencer operations, and HR technology workflows.
         </p>
 
         {/* Paragraph 3 */}
@@ -95,7 +111,7 @@ const About = () => {
           data-aos="fade-up"
           data-aos-duration="1200"
         >
-          I am also developing a{" "}
+          I have also developed a{" "}
           <span className="font-semibold" style={{ color: "#227B94" }}>
             Real Estate Platform
           </span>{" "}
@@ -103,12 +119,11 @@ const About = () => {
           <span className="font-semibold" style={{ color: "#227B94" }}>
             Next.js (App Router)
           </span>{" "}
-          with property listings, filters, vendor profiles, and responsive UI. 
-          I am currently building the backend with{" "}
+          with property listings, filters, vendor profiles, and responsive UI. The platform includes{" "}
           <span className="font-semibold" style={{ color: "#227B94" }}>
             advanced OTP-based authentication
           </span>
-          , secure APIs, role-based access, and scalable architecture for managing properties, users, and vendors.
+          , secure APIs, role-based access, and a scalable architecture for managing properties, users, and vendors.
         </p>
 
         <ExperienceHighlights />
