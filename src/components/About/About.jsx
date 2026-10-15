@@ -1,6 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import HeaderText from "../HeaderText/HeaderText";
 import { Element } from "react-scroll";
+import ExperienceHighlights from "./ExperienceHighlights";
 
 const About = () => {
   return (
@@ -109,6 +110,8 @@ const About = () => {
           </span>
           , secure APIs, role-based access, and scalable architecture for managing properties, users, and vendors.
         </p>
+
+        <ExperienceHighlights />
 
         {/* Paragraph 6 - Skills */}
         <p

@@ -1,0 +1,100 @@
+.experience-highlights {
+  width: 100%;
+  margin: 0.25rem 0;
+  border: 1px solid #dfeaf0;
+  border-radius: 1.15rem;
+  background: linear-gradient(135deg, #f9fdff, #f5fafc);
+  padding: 1.25rem;
+}
+
+.experience-highlights__heading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.experience-highlights__heading span {
+  color: #227b94;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.experience-highlights__heading p {
+  margin: 0;
+  color: #688096;
+  font-size: 0.78rem;
+  text-align: right;
+}
+
+.experience-highlights__grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.65rem;
+}
+
+.experience-tile {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.7rem;
+  min-width: 0;
+  border: 1px solid transparent;
+  border-radius: 0.8rem;
+  background: #fff;
+  padding: 0.85rem;
+  transition: transform 220ms ease, box-shadow 220ms ease, border-color 220ms ease;
+}
+
+.experience-tile:hover {
+  transform: translateY(-3px);
+  border-color: #a9d2df;
+  box-shadow: 0 12px 24px rgba(39, 82, 105, 0.1);
+}
+
+.experience-tile__icon {
+  display: grid;
+  width: 2.25rem;
+  height: 2.25rem;
+  flex: 0 0 auto;
+  place-items: center;
+  border-radius: 0.65rem;
+  background: #eae7ff;
+  color: #6b57dc;
+}
+
+.experience-tile--blue .experience-tile__icon { background: #e3f5fc; color: #1689b5; }
+.experience-tile--pink .experience-tile__icon { background: #fce8f5; color: #c93b8a; }
+.experience-tile--green .experience-tile__icon { background: #e2f8ef; color: #138661; }
+
+.experience-tile p {
+  margin: 0;
+  color: #637d93;
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.experience-tile h3 {
+  margin: 0.15rem 0 0.25rem;
+  color: #173b52;
+  font-size: 0.96rem;
+  font-weight: 700;
+}
+
+.experience-tile span {
+  display: block;
+  color: #61768a;
+  font-size: 0.75rem;
+  line-height: 1.45;
+}
+
+@media (max-width: 600px) {
+  .experience-highlights { padding: 1rem; }
+  .experience-highlights__heading { align-items: flex-start; flex-direction: column; gap: 0.35rem; }
+  .experience-highlights__heading p { text-align: left; }
+  .experience-highlights__grid { grid-template-columns: 1fr; }
+}

@@ -654,7 +654,7 @@ const Header = () => {
             Uttar Pradesh
           </p>
 
-          <a href="/assets/images/Mr.BhupedraSingh.pdf" download data-aos="fade-up" data-aos-duration="1500">
+          <a href="/assets/images/Bhupendra_Singh_Final_Resume.pdf" download data-aos="fade-up" data-aos-duration="1500">
             <button
               className="btn btn-primary text-white transition duration-300 ease-in-out hover:scale-105"
               style={{ backgroundColor: "#16423C", border: "0" }}

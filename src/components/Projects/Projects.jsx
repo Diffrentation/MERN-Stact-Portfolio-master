@@ -6,9 +6,9 @@ const Projects = () => {
         <div id="projects" data-aos="fade-up"  data-aos-duration="500">
            <HeaderText text1={"View my"} text2={"Projects"}/>
            <div>
-            <h3 className="text-lg font-bold text-accent">PORTFOLIO</h3>
-            <h2 className="font-bold text-2xl my-2">Each project is unique piece of developement 👨🏻‍💻</h2>
-            <p className="text-xs text-slate-400">/Also projects are user login based </p>
+            <h3 className="text-lg font-bold text-accent">EXPERIENCE</h3>
+            <h2 className="font-bold text-2xl my-2">Four platforms. Four ways to make work simpler.</h2>
+            <p className="text-sm text-slate-500">A closer look at the products, workflows, and quality work behind my recent experience.</p>
            </div>
            <div>
             <ProjectCard/>
